@@ -18,4 +18,3 @@ console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(8));
 console.log(gameName.indexOf("y"));
-

@@ -65,3 +65,27 @@ Nonpremitive datatypes
 2. object = object;
 3. function = function;
 */
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) = we get a copy of the value in the memory.
+// Heap memory(Non-Primitive) allocation in JavaScript = we get a reference of the value in the memory.
+
+let myYoutubeName = "Lakshay";
+
+let anotherYoutubeName = myYoutubeName;
+anotherYoutubeName = "Codevolution";
+
+console.log(myYoutubeName); 
+console.log(anotherYoutubeName);
+
+let userOne= {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+};
+
+let userTwo = userOne;
+userTwo.email = "user2@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
